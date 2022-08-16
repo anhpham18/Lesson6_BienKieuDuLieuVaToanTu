@@ -1,11 +1,11 @@
 import math
 from stringprep import in_table_c3
 
-a = int(input("Enter the length of side a: "))
-b = int(input("Enter the length of side b: "))
-c = int(input("Enter the length of side c: "))
+a = int(input("Nhập độ dài cạnh a: "))
+b = int(input("Nhập độ dài cạnh b: "))
+c = int(input("Nhập độ dài cạnh c: "))
 
 s = (a+b+c)/2
 area = math.sqrt(s*(s-a)*(s-b)*(s-c))
 
-print(" Area of the triangle is: ", area)
+print("Diện tích hình tam giác là: ", area)

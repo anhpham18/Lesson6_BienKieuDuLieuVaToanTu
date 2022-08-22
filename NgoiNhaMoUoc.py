@@ -256,4 +256,6 @@ t.pendown()
 t.forward(TiaNgan)
 
 
+t.hideturtle()
+
 turtle.done()
